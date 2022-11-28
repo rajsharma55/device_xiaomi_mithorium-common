@@ -286,10 +286,6 @@ endif
 MITHORIUM_PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_mithorium
 
-# LiveDisplay
-MITHORIUM_PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 ifeq ($(TARGET_BOARD_PLATFORM),msm8953)
 PRODUCT_COPY_FILES += \
