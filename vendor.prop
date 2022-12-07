@@ -18,6 +18,15 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.max_virtual_display_dimension=4096
 
+# Dolby
+vendor.audio.dolby.ds2.enabled=false 
+vendor.audio.dolby.ds2.hardbypass=false 
+ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 
+ro.vendor.product.device.db=OP_DEVICE 
+ro.vendor.product.manufacturer.db=OP_PHONE 
+vendor.product.device=OP_PHONE
+vendor.product.manufacturer=OPD
+
 # Radio
 persist.vendor.radio.mt_sms_ack=30
 
